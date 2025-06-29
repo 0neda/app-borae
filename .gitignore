@@ -1,0 +1,72 @@
+# ===========================================
+# MONOREPO GITIGNORE - APP BORAE
+# ===========================================
+
+# ===========================================
+# BACKEND (Symfony)
+# ===========================================
+
+# Symfony
+app-backend/var/
+app-backend/vendor/
+app-backend/.env.local
+app-backend/.env.*.local
+app-backend/.phpunit.result.cache
+app-backend/public/bundles/
+app-backend/composer.lock
+app-backend/var/cache/
+app-backend/var/log/
+app-backend/var/test/
+
+# ===========================================
+# FRONTEND (Nuxt.js)
+# ===========================================
+
+# Nuxt saídas de dev/build
+app-frontend/.output
+app-frontend/.data
+app-frontend/.nuxt
+app-frontend/.nitro
+app-frontend/.cache
+app-frontend/dist
+
+# Dependências Node
+app-frontend/node_modules
+app-frontend/package-lock.json
+
+# ===========================================
+# GLOBAIS
+# ===========================================
+
+# Arquivos do ambiente
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.fleet
+
+# Arquivos do SO
+.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.temp
+*.cache
+
+# Artefatos de build
+/build/
+/dist/
+
+# Uploads
+**/uploads/tmp/

@@ -1,0 +1,35 @@
+# Ignorar diretórios e arquivos padrão do Symfony
+/var/
+/vendor/
+/.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+/public/bundles/
+/node_modules/
+
+# SYMFONY
+/var/cache/
+/var/log/
+/var/test/
+
+# COMPOSER
+composer.lock
+composer.phar
+
+# IDEs
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/
+
+# OUTRAS
+/build/
+/dist/
+
+# TEMPORÁRIOS
+/public/uploads/tmp/
+
+# DEBUG
+*.log
+*.cache
