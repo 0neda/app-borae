@@ -14,6 +14,7 @@ app-backend/.env.*.local
 app-backend/.phpunit.result.cache
 app-backend/public/bundles/
 app-backend/composer.lock
+app-backend/symfony.lock
 app-backend/var/cache/
 app-backend/var/log/
 app-backend/var/test/
